@@ -1,6 +1,7 @@
 // Constants
 const client_id = '96c6c7728fb3487a8783c06ad14e8f0a';
 const app_uri = 'http://mcraealex.github.io/powerhour'; // the uri of the applications
+const minute = 60000;
 var access_token = null;
 
 /**
@@ -91,8 +92,8 @@ function start_timer() {
     setTimeout(() =>  {
         next_song();
         start_timer();
-        setTimeout(() => update_player(), 60000);
-    }, 6000)
+        setTimeout(() => update_player(), 100);
+    }, minute)
 }
 
 function next_song() {

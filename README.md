@@ -1,7 +1,6 @@
 # Powerhour
 
-This application allows an easy way to play the drinking game powerhour with
-your friends.
+Using the Spotify API the application will change the song on the minute mark to allow the drinking game powerhour to work.
 
 ## Notes
 
